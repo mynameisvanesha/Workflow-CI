@@ -1,0 +1,9 @@
+name: workflow-ci
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip:
+      - mlflow
+      - scikit-learn
+      - pandas
