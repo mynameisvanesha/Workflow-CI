@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-name: heart_disease_model
-=======
-name: heart_disease_project
->>>>>>> dc9c426e6aba7b92756ccd97e1f9dd9f32961c7b
+name: workflow_ci
 
 conda_env: conda.yaml
 
