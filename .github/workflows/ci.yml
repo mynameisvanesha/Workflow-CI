@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install mlflow scikit-learn pandas
+      - run: pip install mlflow scikit-learn pandas numpy
 
-      - run: python MLProject/modelling.py
+      - run: python MLProject/modelling.py 

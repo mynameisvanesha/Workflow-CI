@@ -1,22 +1,10 @@
-<<<<<<< HEAD
 name: workflow-ci
-=======
-name: mlflow-env
->>>>>>> dc9c426e6aba7b92756ccd97e1f9dd9f32961c7b
 channels:
   - defaults
 dependencies:
   - python=3.11
-<<<<<<< HEAD
-  - pip:
-      - mlflow
-      - scikit-learn
-      - pandas
-=======
-  - pip
   - pip:
       - mlflow
       - scikit-learn
       - pandas
       - numpy
->>>>>>> dc9c426e6aba7b92756ccd97e1f9dd9f32961c7b
